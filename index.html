@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TH-Homes</title>
+    <title>TH-HOMES</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,11 +23,60 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <style>
+      div.gallery {
+        border: 1px solid #ccc;
+      }
+
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+      }
+
+      @media only screen and (max-width: 700px) {
+        .responsive {
+          width: 49.99999%;
+          margin: 6px 0;
+        }
+      }
+
+      @media only screen and (max-width: 500px) {
+        .responsive {
+          width: 100%;
+        }
+      }
+
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
   </head>
   <body>
     <!-- Navbar start -->
     <nav class="navbar">
-      <a href="#" class="navbar-logo">Th- <span>Homes</span></a>
+      <a href="#" class="navbar-logo">TH- <span>HOMES</span></a>
       <div class="navbar-nav">
         <a href="#home">Home</a>
         <a href="#about">Tentang Kami</a>
@@ -74,7 +124,7 @@
         <div class="content">
           <h1>Tentang TH HOMES.</h1>
           <p>
-            Spec TH homes, Rumah Nyaman dengan Harga dibawah 400 juta
+            Spec TH homes, Rumah Nyaman dan impian keluarga anda
             <br />Dinding tembok bata ringan dengan finishing aci dan pemakaian
             cat dulux ⁠design Modern Minimalis
           </p>
@@ -85,9 +135,30 @@
             yang bagus ⁠daya listrik 2200 watt <br />Akses Jalan dekat menuju
             Tol Bomang
           </p>
+          <br />
+          <p>
+            Hunian nyaman AT TH HOMES CLUSTER, jl.Nanggela, nanggerang ID 16320
+            kab.BOGOR citayam-Jabar
+          </p>
+          <br />
+          <p>
+            Project kami yang sedang berjalan dengan akses jalan yang mudah Spec
+            kenyamanan penghuni unit di luas tanah 62m dan luas bangunan 47m
+          </p>
+          <br />
+          <ul>
+            <li>Besi 10 behel</li>
+            <li>kamar tidur 2</li>
+            <li>Taman belakang ( sirkulasi ruangan )</li>
+            <li>Kamar mandi 1</li>
+            <li>Sanitary by american standart dan shower</li>
+            <li>Aksen kaca dan tali air</li>
+          </ul>
+          <br />
+          <p>Price under <span>Rp.375.000.000</span> free biaya lain-lain</p>
         </div>
         <div class="about-logo">
-          <video width="520" height="400" controls>
+          <video width="450" height="400" controls>
             <source src="asset/rumah/video/home.mp4" type="video/mp4" />
           </video>
         </div>
@@ -95,45 +166,99 @@
     </div>
     <!-- about section end -->
 
-    <!-- armada section start -->
+    <!-- galery section start -->
     <div class="armada" id="armada">
-      <h1>Gallery</h1>
+      <h1>Gallery Foto</h1>
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="asset/rumah/galery/h1.jpeg">
+            <img
+              src="asset/rumah/galery/h1.jpeg"
+              alt="Cinque Terre"
+              width="600"
+              height="400"
+            />
+          </a>
+          <div class="desc">TH-HOMES Cluster, citayam</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="asset/rumah/galery/h2.jpeg">
+            <img
+              src="asset/rumah/galery/h2.jpeg"
+              alt="Forest"
+              width="600"
+              height="400"
+            />
+          </a>
+          <div class="desc">TH-HOMES Cluster, citayam</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="asset/rumah/galery/h3.jpeg">
+            <img
+              src="asset/rumah/galery/h3.jpeg"
+              alt="Northern Lights"
+              width="600"
+              height="400"
+            />
+          </a>
+          <div class="desc">TH-HOMES Cluster, citayam</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="asset/rumah/galery/h4.jpeg">
+            <img
+              src="asset/rumah/galery/h4.jpeg"
+              alt="Mountains"
+              width="600"
+              height="400"
+            />
+          </a>
+          <div class="desc">TH-HOMES Cluster, citayam</div>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
     </div>
-    <!-- armada section end -->
+    <!-- galery section end -->
 
     <!-- services section start -->
     <section class="service">
       <h1>Mengapa Memilih TH HOMES ?</h1>
       <div class="row">
         <div class="card">
-          <h2>Biaya Terjangkau</h2>
+          <h2>Biaya Afordable</h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
-            aut!
+            Harga murah dan kompetitif, dengan tetap mengedepankan mutu dan
+            kualitas layanan maksimal
           </p>
         </div>
 
         <div class="card">
           <h2>Terawat</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
-            aut!
-          </p>
+          <p>Setiap unit selalu kami rawat dengan baik dan benar setiap hari</p>
         </div>
 
         <div class="card">
           <h2>Layanan Berkualitas</h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
-            aut!
+            Semua unit terbaru dengan didukung oleh pekerja dan arsitek yang
+            profesional dan dapat di andalkan
           </p>
         </div>
 
         <div class="card">
           <h2>Customer Oriented</h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
-            aut!
+            Kapan pun anda butuh pelayanan, Customer support kami dapat
+            dihubungi via wa
           </p>
         </div>
       </div>
@@ -188,11 +313,36 @@
       </div>
 
       <div class="copy">
-        <p>CopyRight &copy Develop -2025 <a href="#">@ekhoyzether</a></p>
+        <p>
+          CopyRight &copy Develop -2019
+          <a href="https://www.instagram.com/ekhoyzether/">@ekhoyzether</a>
+        </p>
       </div>
     </section>
     <!-- footer section end -->
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
 
+      function plusDivs(n) {
+        showDivs((slideIndex += n));
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+      }
+    </script>
     <!-- feather script -->
     <script>
       feather.replace();
